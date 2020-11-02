@@ -1,13 +1,9 @@
 package maxpriorqueue;
 
-public class MaxPriorQueue<Key extends  Comparable<Key>> {
-
-    public MaxPriorQueue(){}
-    public MaxPriorQueue(int max){}
-    public MaxPriorQueue(Key[] a){}
-    void insert(Key v){}
-    Key max(){}
-    Key delMax(){}
-    boolean isEmpty(){}
-
+public interface MaxPriorQueue<Key extends  Comparable<Key>>{
+    void insert(Key v);
+    Key max();
+    Key delMax();
+    boolean isEmpty();
+    int size();
 }
