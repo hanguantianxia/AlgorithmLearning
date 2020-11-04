@@ -1,4 +1,4 @@
-package simpletable;
+package simpeltable;
 
 import java.io.Serializable;
 import java.util.Iterator;

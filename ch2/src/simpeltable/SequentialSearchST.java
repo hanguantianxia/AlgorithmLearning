@@ -1,8 +1,6 @@
-package simpletable;
+package simpeltable;
 
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 public class SequentialSearchST <Key extends Comparable<Key>, Value> implements ST<Key, Value>, Iterable<SequentialSearchST.Node>{
     private Node first;

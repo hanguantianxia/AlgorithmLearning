@@ -1,4 +1,4 @@
-package simpletable;
+package simpeltable;
 
 public interface ST <Key extends Comparable<Key>, Value>{
     /**
