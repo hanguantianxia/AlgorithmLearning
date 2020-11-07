@@ -5,6 +5,7 @@ public class QuickSort {
         StdRandom.shuffle(data);
         sort(data, 0, data.length-1);
     }
+
     public static  <T extends Comparable> void sort(T[] data, int low, int high){
         int j = partition(data, low, high);
         sort(data, low, j-1);
